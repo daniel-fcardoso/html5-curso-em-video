@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(49, 47, 47);
+}
+
+h1,p{
+    color: white;
+    text-align: center;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

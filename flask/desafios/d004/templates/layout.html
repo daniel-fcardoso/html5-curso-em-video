@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Meu Site{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <link rel="shortcut icon" href="/flask/desafios/d004/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+
+</header>
+
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+</footer>
+
+</body>
+</html>
