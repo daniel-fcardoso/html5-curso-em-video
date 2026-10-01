@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ab, a earum dignissimos cum commodi debitis eveniet explicabo neque iusto aut expedita assumenda laborum quisquam perspiciatis, culpa possimus, iure tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus officia vitae, deleniti cum error, eaque esse adipisci, vero odio illo porro vel. Quae beatae numquam quisquam dignissimos saepe culpa!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste vitae, illum eveniet modi unde fuga adipisci est nemo deleniti alias quasi, quia iusto architecto. Explicabo qui architecto assumenda? Modi, tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia distinctio officiis quaerat odio optio aperiam error molestiae, illum eos excepturi delectus impedit modi accusamus voluptate tempora suscipit inventore? Velit, pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit adipisci fuga accusamus cupiditate repudiandae eius voluptatibus itaque nulla error! Perspiciatis cumque earum dignissimos in reiciendis? Optio inventore saepe obcaecati quisquam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur in nostrum qui fugit minima blanditiis distinctio veniam culpa, ullam numquam asperiores necessitatibus beatae, rem deserunt officia laboriosam possimus voluptatum. Accusantium!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, itaque nobis fugit similique incidunt dolores ipsam excepturi veniam dolorum vero numquam iusto laboriosam eos autem alias nemo id neque necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat facere quidem ipsum? Nisi nulla hic ipsum optio voluptas corporis! Eos accusamus nobis repellendus temporibus minima, ullam veniam incidunt repellat quaerat.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
